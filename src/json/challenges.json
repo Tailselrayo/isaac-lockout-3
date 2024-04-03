@@ -1,0 +1,407 @@
+{
+  "challenge-1": {
+    "description": "defeat delirium",
+    "difficulty": "hard",
+    "type": "boss-fight"
+  },
+  "challenge-2": {
+    "description": "defeat the beast",
+    "difficulty": "medium",
+    "type": "boss-fight"
+  },
+  "challenge-3": {
+    "description": "defeat mother",
+    "difficulty": "medium",
+    "type": "boss-fight"
+  },
+  "challenge-4": {
+    "description": "defeat mega satan",
+    "difficulty": "medium",
+    "type": "boss-fight"
+  },
+  "challenge-5": {
+    "description": "defeat X Y times",
+    "difficulty": "medium",
+    "type": "boss-fight",
+    "repeatable": true,
+    "parameters": {
+      "typeX": "BossName",
+      "typeY": "number",
+      "limitX": "chapter"
+      }
+    },
+  
+  "challenge-6": {
+    "description": "item with eyeball",
+    "difficulty": "easy",
+    "type": "item"
+  },
+  "challenge-7": {
+    "description": "item with 'head'",
+    "difficulty": "easy",
+    "type": "item"
+  },
+  "challenge-8": {
+    "description": "X separate Y in a single room",
+    "difficulty": "custom",
+    "type": "exploration",
+    "parameters": {
+      "typeX": "number",
+      "typeY": "Pickup",
+      "limitX": {
+        "easy": {
+          "min": 3,
+          "max": 5
+        },
+        "medium": {
+          "min": 6,
+          "max": 12
+        },
+        "hard": {
+          "min": 13,
+          "max": 15
+        }
+      }
+    }
+  },
+  "challenge-9": {
+    "description": "poison an enemy",
+    "difficulty": "easy",
+    "type": "progression"
+  },
+  "challenge-10": {
+    "description": "any form of flight",
+    "difficulty": "easy",
+    "type": "progression"
+  },
+  "challenge-11": {
+    "description": "X pays out/breaks",
+    "difficulty": "easy",
+    "type": "exploration",
+    "repeatable": true,
+    "parameters": {
+      "typeX": "GamblingSystems",
+      "limitX": 2
+    }
+  },
+  "challenge-12": {
+    "description": "beat a full Fistula, Teratoma or Envy",
+    "difficulty": "medium",
+    "type": "boss-fight"
+  },
+  "challenge-13": {
+    "description": "stage X of super meat boy / bandage girl",
+    "difficulty": "medium",
+    "type": "progression",
+    "parameters": {
+      "typeX": "number",
+      "limitX": 4
+    }
+  },
+  "challenge-14": {
+    "description": "item from an angel room",
+    "difficulty": "easy",
+    "type": "item"
+  },
+  "challenge-15": {
+    "description": "use a 2 or Ace of X",
+    "difficulty": "medium",
+    "type": "exploration",
+    "parameters": {
+      "typeX": "CardSuit"
+    }
+  },
+  "challenge-16": {
+    "description": "kill a gurdy (Jr or Sr)",
+    "difficulty": "medium",
+    "type": "boss-fight"
+  },
+  "challenge-17": {
+    "description": "bomb a X",
+    "difficulty": "easy",
+    "repeatable": true,
+    "type": "exploration",
+
+    "parameters": {
+      "typeX": "GamblingSystem",
+      "limitX": 1
+    }
+  },
+  "challenge-18": {
+    "description": "hold X Y",
+    "difficulty": "easy",
+    "type": "progression",
+    "repeatable": true,
+    "parameters": {
+      "typeX": "number",
+      "typeY": "Pickup",
+      "limitX": 99
+    }
+  },
+  "challenge-19": {
+    "description": "use a X of any suitcard",
+    "difficulty": "medium",
+    "type": "exploration",
+    "parameters": {
+      "typeX": "boolean"
+    }
+  },
+  "challenge-20": {
+    "description": "kill a X colored champion or boss",
+    "difficulty": "medium",
+    "type": "exploration",
+    "parameters": {
+      "typeX": "Color",
+      "limitX": "championColor"
+    }
+  },
+  "challenge-21": {
+    "description": "run from / cancel a boss fight ",
+    "difficulty": "easy",
+    "type": "boss-fight"
+  },
+  "challenge-22": {
+    "description": "get a mushroom item",
+    "difficulty": "medium",
+    "type": "item"
+  },
+  "challenge-23": {
+    "description": "fire a homing tear (familiars count)",
+    "difficulty": "easy",
+    "type": "progression"
+  },
+  "challenge-24": {
+    "description": "fire a spectral tear (familiars count)",
+    "difficulty": "medium",
+    "type": "progression"
+  },
+  "challenge-25": {
+    "description": "2 items with 'mom' in the name",
+    "difficulty": "easy",
+    "type": "item"
+  },
+  "challenge-26": {
+    "description": "use a book",
+    "difficulty": "easy",
+    "type": "item"
+  },
+  "challenge-27": {
+    "description": "X different Y a run (copying effect count)",
+    "difficulty": "custom",
+    "type": "exploration",
+    "repeatable": true,
+    "parameters": {
+      "typeX": "number",
+      "limitX": 10,
+      "typeY": "consumable"
+    }
+  },
+  "challenge-28": {
+    "description": "multishot from any source (isaac, bomb, familiar...)",
+    "difficulty": "medium",
+    "type": "item"
+  },
+  "challenge-29": {
+    "description": "clear a shop with at least X items (not specifically the 15$ ones)",
+    "difficulty": "easy",
+    "type": "progression",
+    "parameters": {
+      "typeX": "number"
+    }
+  },
+  "challenge-30": {
+    "description": "clear a devil room with at least X items",
+    "difficulty": "hard",
+    "type": "progression",
+    "parameters": {
+      "typeX": "number",
+      "limitX": 3
+    }
+  },
+  "challenge-31": {
+    "description": "get horny (get a horn)",
+    "difficulty": "medium",
+    "type": "progression"
+  },
+  "challenge-32": {
+    "description": "get a kill with a troll bomb",
+    "difficulty": "medium",
+    "type": "exploration"
+  },
+  "challenge-33": {
+    "description": "full clear a XL floor past basement (only normal rooms and bosses)",
+    "difficulty": "medium",
+    "type": "exploration"
+  },
+  "challenge-34": {
+    "description": "get permanent flight",
+    "difficulty": "hard",
+    "type": "item"
+  },
+  "challenge-35": {
+    "description": "at least X combined ressources (coins/bombs/keys)",
+    "difficulty": "custom",
+    "type": "exploration",
+    "parameters": {
+      "typeX": "number",
+      "limitX": 200
+    }
+  },
+  "challenge-36": {
+    "description": "at least X of each ressource (coins/bombs/keys)",
+    "difficulty": "custom",
+    "type": "exploration",
+    "parameters": {
+      "typeX": "number",
+      "limitX": 60
+    }
+  },
+  "challenge-37": {
+    "description": "any mapping items",
+    "difficulty": "medium",
+    "type": "item"
+  },
+  "challenge-38": {
+    "description": "3 orbitals (not counting blue and red flies)",
+    "difficulty": "hard",
+    "type": "item"
+  },
+  "challenge-39": {
+    "description": "health dropping follower (lil chad and the relic)",
+    "difficulty": "hard",
+    "type": "item"
+  },
+  "challenge-40": {
+    "description": "X devil deals a run (only inside a devil deal room, no dark room)",
+    "difficulty": "medium",
+    "type": "progression",
+    "parameters": {
+      "typeX": "number",
+      "limitX": {
+        "min": 3,
+        "max": 7
+      }
+    }
+  },
+  "challenge-41": {
+    "description": "complete a boss rush",
+    "difficulty": "medium",
+    "type": "boss-fight"
+  },
+  "challenge-42": {
+    "description": "complete the blue womb",
+    "difficulty": "medium",
+    "type": "boss-fight"
+  },
+  "challenge-43": {
+    "description": "defeat The Lamb or ???",
+    "difficulty": "easy",
+    "type": "boss-fight"
+  },
+  "challenge-44": {
+    "description": "defeat Satan or Isaac",
+    "difficulty": "easy",
+    "type": "boss-fight"
+  },
+  
+  "challenge-45": {
+    "description": "",
+    "difficulty": ""
+  },
+  "challenge-46": {
+    "description": "",
+    "difficulty": ""
+  },
+  "challenge-47": {
+    "description": "",
+    "difficulty": ""
+  },
+  "challenge-48": {
+    "description": "",
+    "difficulty": ""
+  },
+  "challenge-49": {
+    "description": "",
+    "difficulty": ""
+  },
+  "challenge-50": {
+    "description": "",
+    "difficulty": ""
+  },
+  "challenge-51": {
+    "description": "",
+    "difficulty": ""
+  },
+  "challenge-52": {
+    "description": "",
+    "difficulty": ""
+  },
+  "challenge-53": {
+    "description": "",
+    "difficulty": ""
+  },
+  "challenge-54": {
+    "description": "",
+    "difficulty": ""
+  },
+  "challenge-55": {
+    "description": "",
+    "difficulty": ""
+  },
+  "challenge-56": {
+    "description": "",
+    "difficulty": ""
+  },
+  "challenge-57": {
+    "description": "",
+    "difficulty": ""
+  },
+  "challenge-58": {
+    "description": "",
+    "difficulty": ""
+  },
+  "challenge-59": {
+    "description": "",
+    "difficulty": ""
+  },
+  "challenge-60": {
+    "description": "",
+    "difficulty": ""
+  },
+  "challenge-61": {
+    "description": "",
+    "difficulty": ""
+  },
+  "challenge-62": {
+    "description": "",
+    "difficulty": ""
+  },
+  "challenge-63": {
+    "description": "",
+    "difficulty": ""
+  },
+  "challenge-64": {
+    "description": "",
+    "difficulty": ""
+  },
+  "challenge-65": {
+    "description": "",
+    "difficulty": ""
+  },
+  "challenge-66": {
+    "description": "",
+    "difficulty": ""
+  },
+  "challenge-67": {
+    "description": "",
+    "difficulty": ""
+  },
+  "challenge-68": {
+    "description": "",
+    "difficulty": ""
+  },
+  "challenge-69": {
+    "description": "",
+    "difficulty": ""
+  }
+}
