@@ -1,25 +1,18 @@
-import { A } from "@solidjs/router";
-import Counter from "~/components/Counter";
+import { Grid } from "~/components/Grid";
+import { Layout } from "~/components/Layout";
+import { GridChallenge } from "~/types/GridChallenge";
 
 export default function Home() {
+  const challengeTestList: GridChallenge[] = Array.from({ length: 25 }).map(
+    (_, index) => ({
+      name: `challenge ${index}`,
+      description: `this is the challenge n°${index}`,
+    })
+  );
+
   return (
-    <div class="text-center mx-auto text-gray-700 p-4">
-      <h1 class="max-6-xs text-6xl text-sky-700 font-thin uppercase my-16">Hello world!</h1>
-      <Counter />
-      <p class="mt-8">
-        Visit{" "}
-        <a href="https://solidjs.com" target="_blank" class="text-sky-600 hover:underline">
-          solidjs.com
-        </a>{" "}
-        to learn how to build Solid apps.
-      </p>
-      <p class="my-4">
-        <span>Home</span>
-        {" - "}
-        <A href="/about" class="text-sky-600 hover:underline">
-          About Page
-        </A>{" "}
-      </p>
-    </div>
+    <Layout>
+      <Grid challenges={challengeTestList}/>
+    </Layout>
   );
 }
